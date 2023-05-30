@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #8b61ff;
+  --secondary-color: #8c91a4;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+  }
+
+  .minimizedLinks {
+    /* display: block; */
+    justify-content: end;
+    align-self: center;
+    margin-right: 40px;
+  }
+  .logo {
+    margin-left: 40px;
+  }
+  .navlinks {
+    display: none;
+    color: var(--secondary-color);
+  }
+  .description {
+    background-color: #d5d6d9;
+  }
+  .description h1 {
+    text-transform: uppercase;
+    color: #8b61ff;
+    font-weight: 700;
+  }
+  .decription h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .description h3 {
+    color: var(--secondary-color);
+  }
+  .button1 {
+    background-color: var(--primary-color);
+    padding: 10px 25px 10px 25px;
+    border-radius: 55px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  .footerIntro {
+    color: #8c91a4;
+  }
+  .footerIntro i {
+    padding-right: 25px;
+  }
+}
