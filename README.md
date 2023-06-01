@@ -1,1 +1,2 @@
-# francesca-wireframe-04
+# Collaborative Front-End Exercise
+## Built for mobile first (view under 650px width)
