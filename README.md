@@ -1,2 +1,2 @@
 # Collaborative Front-End Exercise
-## Built for mobile first (view under 650px width)
+## Built for mobile first (view under 480px width)
